@@ -2,7 +2,7 @@ import openai
 
 class LLMDataAugmentor:
     def __init__(self, api_key):
-        self.client = openai.OpenAI(api_key="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")
+        self.client = openai.OpenAI(api_key="sk-proj-")
 
     def augment(self, texts, labels, n_per_example=1):
         augmented = []
